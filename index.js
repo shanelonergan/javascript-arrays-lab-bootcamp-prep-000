@@ -7,25 +7,25 @@ function destructivelyAppendKitten(array, name) {
 
 destructivelyAppendKitten(kittens, 'Eloise');
 
-function destructivelyPrependKitten(name) {
-  kittens = unshift(name);
+function destructivelyPrependKitten(array, name) {
+  aray.unshift(name);
   return kittens
 }
 
-destructivelyPrependKitten(Eloise)
+destructivelyPrependKitten(kittens, Eloise)
 
-function destructivelyRemoveLastKitten() {
-  pop(kittens);
+function destructivelyRemoveLastKitten(kittens) {
+  kittens.pop();
   return kittens;
 }
 
-destructivelyRemoveLastKitten()
+destructivelyRemoveLastKitten(kittens)
 
-function destructivelyRemoveFirstKitten() {
-  kittens = shift ();
+function destructivelyRemoveFirstKitten(kittens) {
+  kittens.shift();
   return kittens;
 }
 
-destructivelyRemoveFirstKitten()
+destructivelyRemoveFirstKitten(kittens)
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
