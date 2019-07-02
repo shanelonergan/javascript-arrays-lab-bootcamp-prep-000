@@ -1,3 +1,29 @@
-var kittens = [] //define your array here
+var kittens = ['Milo', 'Otis', 'Garfield'];
 
-// Add your functions and code here
+function destructivelyAppendKitten(array, name) {
+  array.push(name);
+  return array;
+}
+
+destructivelyAppendKitten(kittens, 'Eloise');
+
+function destructivelyPrependKitten(name) {
+  kittens = unshift(name);
+  return kittens
+}
+
+destructivelyPrependKitten(Eloise)
+
+function destructivelyRemoveLastKitten() {
+  pop(kittens);
+  return kittens;
+}
+
+destructivelyRemoveLastKitten()
+
+function destructivelyRemoveFirstKitten() {
+  kittens = shift ();
+  return kittens;
+}
+
+destructivelyRemoveFirstKitten()
