@@ -34,3 +34,10 @@ function appendKitten(name) {
 }
 
 appendKitten(Johnny);
+
+function prependKitten(name) {
+  var newKittens = [name, ...kittens];
+  return newKittens;
+}
+
+prependKitten(Johnny);
