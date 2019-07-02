@@ -28,4 +28,4 @@ function destructivelyRemoveFirstKitten(kittens) {
 
 destructivelyRemoveFirstKitten(kittens)
 
-var kittens = ['Milo', 'Otis', 'Garfield'];
+kittens = ['Milo', 'Otis', 'Garfield'];
