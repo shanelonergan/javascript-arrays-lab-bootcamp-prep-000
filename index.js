@@ -27,3 +27,5 @@ function destructivelyRemoveFirstKitten() {
 }
 
 destructivelyRemoveFirstKitten()
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
