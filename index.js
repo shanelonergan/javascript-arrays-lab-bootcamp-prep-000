@@ -34,4 +34,3 @@ function appendKitten(name) {
 }
 
 appendKitten(Johnny);
-  
