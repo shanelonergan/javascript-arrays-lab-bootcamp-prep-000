@@ -41,3 +41,17 @@ function prependKitten(name) {
 }
 
 prependKitten(Johnny);
+
+function removeLastKitten() {
+  var newKittens = kittens.pop()
+  return newKittens
+}
+
+removeLastKitten()
+
+function removeFirstKitten() {
+  var newKittens = kittens.shift()
+  return newKittens
+}
+
+removeFirstKitten()
